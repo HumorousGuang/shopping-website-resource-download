@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>JD Image Downloader</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div id="app">
+    <h1>JD Image Downloader</h1>
+    <div class="controls">
+      <button id="downloadAll">Download All</button>
+      <div class="options">
+        <label><input type="checkbox" id="mainImages" checked> Main Images</label>
+        <label><input type="checkbox" id="detailImages" checked> Detail Images</label>
+        <label><input type="checkbox" id="skuImages" checked> SKU Images</label>
+        <label><input type="checkbox" id="videos" checked> Videos</label>
+      </div>
+    </div>
+    <div id="status"></div>
+    <div id="progress"></div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html> 
